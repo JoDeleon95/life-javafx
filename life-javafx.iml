@@ -11,5 +11,14 @@
     <orderEntry type="library" name="org.openjfx:javafx-controls:11.0.1" level="application" />
     <orderEntry type="library" name="org.openjfx:javafx-fxml:11.0.1" level="application" />
     <orderEntry type="library" name="org.openjfx:javafx-graphics:11.0.1" level="application" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../life-model/out/artifacts/life_model_jar/life-model.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
   </component>
 </module>
