@@ -1,25 +1,52 @@
-GridePane {
-  -fx-padding: 10px;
-  -fx-min-width: 100%;
+GridPane {
+  -fx-padding: 5px 5px 5px 5px;
+  -fx-max-width: 100%;
   -fx-min-height: 100%;
   -fx-alignment: center;
-  -fx-spacing: 10px;
-  -fx-hgap: 10px;
-  -fx-vgap: 10px;
+  -fx-hgap: 5px;
+  -fx-vgap: 5px;
+}
+
+Text {
+  -fx-font-style: italic;
 }
 
 #viewScroller {
   -fx-hbar-policy: never;
   -fx-vbar-policy: never;
-  -fx-min-width: 600px;
-  -fx-max-width: 600px;
-  -fx-min-height: 600px;
-  -fx-max-height: 600px;
+  -fx-min-width: 640px;
+  -fx-max-width: 640px;
+  -fx-min-height: 640px;
+  -fx-max-height: 640px;
   -fx-pannable: true;
+  -fx-background: black;
+}
+
+#terrainView {
+  -cell-color: aqua;
 }
 
 #densitySlider {
   -fx-major-tick-unit: 1;
   -fx-minor-tick-count: 0;
   -fx-snap-to-ticks: true;
+  -fx-show-tick-labels: false;
+  -fx-show-tick-marks: false;
+  -fx-alignment: bottom-center;
+  -fx-max-width: Infinity;
+}
+
+#densityLabel {
+  -fx-font-weight: bold;
+  -fx-alignment: top-center;
+  -fx-max-width: Infinity;
+}
+
+.button {
+  -fx-font-weight: bold;
+  -fx-min-width: 100px;
+}
+
+CheckBox {
+  -fx-font-weight: bold;
 }
